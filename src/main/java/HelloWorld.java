@@ -1,3 +1,4 @@
+import java.util.Arrays;
 
 public class HelloWorld {
 
@@ -10,5 +11,6 @@ public class HelloWorld {
         System.out.println("我下班了");
         System.out.println("wo shangbanle ");
         System.out.println("我shang班了");
+        System.out.println(Arrays.toString(args));
     }
 }
